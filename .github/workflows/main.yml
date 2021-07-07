@@ -9,6 +9,7 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
+    if: flase
     # Timeout before next run
     timeout-minutes: 9
     env:
